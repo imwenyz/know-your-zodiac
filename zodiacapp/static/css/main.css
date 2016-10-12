@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width:100%;
+  color: #444;
+}
+
+header h1 {
+  color: white !important;
+  text-align: center;
+}
+
+.header_container {
+  background-color: #216ba5 !important;
+}
+
+/*
+ * Centering the body content
+ */
+
+.container2 {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.zodiac_form{
+  margin: 3rem auto;
+  width: 50%;
+  text-align: center;
+  min-width: 100px;
+  max-width: 300px;
+}
+
+.zodiac_figure{
+  width: 400px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.zodiac_caption{
+  font-family: "Helvetica Neue", Helvetica, "Times New Roman", Georgia, Serif;
+  font-size: 3rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+div.home {
+  margin: 20 auto;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+div.about {
+  padding: 10px 0 30px 0;
+  background-color: #E6E6FA;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}

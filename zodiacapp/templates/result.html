@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block content %}
+<!--  TODO  for api doc-->
+  <div class="home row">
+    <figure class="zodiac_figure col-md-6">
+    <img class="img-rounded center-block" alt=eastName src={{eastImage}} width="300" height="300">
+    <figcaption class="zodiac_caption">{{eastName}}</figcaption>
+    </figure>
+    <figure class="zodiac_figure col-md-6">
+    <img class="img-rounded center-block" alt=westName src={{westImage}} width="300" height="300">
+    <figcaption class="zodiac_caption">{{westName}}</figcaption>
+    </figure>
+  </div>
+{% endblock %}
