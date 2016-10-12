@@ -13,6 +13,7 @@ Follow the instruction(bash in OS X):
 * virtualenv venv
 * pip install -r requirements.txt
 * python runserver.py
+* visit localhost:5000
 
 ###Heroku
 
@@ -20,12 +21,14 @@ Procfile and requirements.txt are ready. Follow the [instruction of how to deplo
 
 ##How to use API
 ###RESTful API
-It accepts both GET and POST method. The entry is http://[yourpage]/api/ . The parameters are year, month and day.
+It accepts both GET and POST method. The entry is http://[yourpage]/api/ . The parameters are **year**, **month** and **day**.
 
 ###JSON
-It returns 'status = 1' when it succeeds. Inside the 'data', it includes 'birthday', 'eastZodiac' and 'westZodiac'. In both the zodiac entries, 'number' stands for the order of the sign, 'name' stands for the name of the sign, and 'imageurl' represents the url of the sign's image.
+It returns **status = 1** when it succeeds. Inside the **data**, it includes **birthday**, **eastZodiac** and **westZodiac**.
 
-It returns 'error' entry with error information when it fails.
+In both the zodiac entries, **number** stands for the order of the sign, **name** stands for the name of the sign, and **imageurl** represents the url of the sign's image.
+
+It returns **error** entry with error information when it fails.
 
 ##Database
 It applies either MySQL and SQLite as database. I recommend to use SQLite as tryout, as my MySQL server might be closed in near future.
@@ -39,6 +42,7 @@ If you want to use your own database server, change the url in 'config.py'. Impo
 * jQuery/Ajax
 
 ##Demo
-* [(https://your-zodiac-2016.herokuapp.com/)](https://your-zodiac-2016.herokuapp.com/)
+* [https://your-zodiac-2016.herokuapp.com/](https://your-zodiac-2016.herokuapp.com/)
 * [https://your-zodiac-2016.herokuapp.com/api/?year=1955&month=2&day=24](https://your-zodiac-2016.herokuapp.com/api/?year=1955&month=2&day=24)
+
 *Deployed on 11th October 2016, it might get expired at any moment*
