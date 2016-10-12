@@ -1,7 +1,9 @@
 # Welcome to 'Know Your Zodiac'
+[![Build Status](https://travis-ci.org/VincentWen/know-your-zodiac.svg?branch=master)](https://travis-ci.org/VincentWen/know-your-zodiac)
 
 ##Introduction
 *Do you want to know which animal are you in Chinese Zodiac (A.K.A East Zodiac)?*
+
 *Do you want to know which constellation are you in Western astrology (A.K.A West Zodiac)?*
 
 Type in your birthday (year, month and day), 'Know Your Zodiac' will return your East&West Zodiac sign.
