@@ -1,6 +1,7 @@
 # Statement for enabling the development environment
 DEBUG = True
 
+# Place your own mysql
 MYSQL_URL = 'mysql+pymysql://zodiac:unsafepwd@94.237.28.44/zodiac'
 
 # Alternative database, SQLite
